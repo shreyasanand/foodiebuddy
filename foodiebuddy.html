@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- 
+	Author: Shreyas Anand
+	URL: http://omega.uta.edu/~sxa1001/shreyasanand/mashup/foodiebuddy.html
+	-->
+<html lang="en">
+  <head>
+    <title>Foodie Buddy</title>
+    <h1>Foodie Buddy</h1>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="foodiebuddy.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<link rel="stylesheet" type="text/css" href="foodiebuddy.css">
+  </head>
+  <body onload="initMap();">
+    <form>
+       <label>Find: 
+			<input placeholder="pizza, buffet, indian" type="text" id="search" onkeypress="return searchKeyPress(event);"/>
+	   </label>
+       <input type="button" id="btnSearch" onclick="sendRequestToSearchRestaurant();" value="Go"/>
+    </form>
+    <table class="table">
+		<tr class="row">
+			<td class="data">
+				<div id="map-canvas"></div>
+			</td>
+			<td class="data">
+				<div id="output"></div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
