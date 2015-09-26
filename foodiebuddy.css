@@ -1,0 +1,70 @@
+/** foodiebuddy.css **/
+
+#output {
+	display: block;
+	width: 680px; 
+	font-family:Palatino Linotype; 
+	font-size:smaller; 
+	padding:10px 10px; 
+	border:2px solid; 
+	border-style:inset; 
+	border-radius:10px; 
+	background-color:#F5DA81; 
+	margin-right:10px;
+}
+
+#search {
+	width:350px;
+}
+
+form {
+	text-align: center;
+}
+
+#map-canvas {
+	border-style:inset; 
+	border:3px solid; 
+	border-radius:10px;
+	width: 600px; 
+	height: 500px;
+}
+
+h1 {
+	text-align: center;
+	color : white; 
+	font-family:Papyrus;
+}
+
+body {
+	background-color:#484848;
+}
+
+label {
+	font-family:Palatino Linotype;
+	color:white;
+}
+
+input {
+	border-radius:5px;
+	font-family:Palatino Linotype;
+}
+
+img.restaurant {
+	width: 100px !important;
+    height: 100px !important;
+	border-radius:10px;
+}
+
+table.table {
+	border-spacing: 10pt
+}
+
+tr.row {
+	width:790px;
+}
+
+td.data {
+	vertical-align:top;
+	width:500px; 
+	height:800px;
+}
