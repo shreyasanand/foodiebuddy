@@ -8,4 +8,4 @@ Mashup of:
   - Google Maps API: Provides a map canvas. Provides geolocation services to get the current user location and geocoding services to convert a postal address to lat long coordinates and add marker.
   
 
-http://omega.uta.edu/~sxa1001/shreyasanand/mashup/foodiebuddy.html
+Application link: http://omega.uta.edu/~sxa1001/shreyasanand/mashup/foodiebuddy.html
